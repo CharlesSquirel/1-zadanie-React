@@ -1,0 +1,26 @@
+.search-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  gap: 15px;
+  width: 100%;
+}
+
+.heading-text {
+  font-size: 72px;
+}
+
+.search-input {
+  width: 80%;
+  height: 45px;
+  border-radius: 15px;
+  border: 2px solid black;
+  outline: none;
+  padding-left: 17px;
+  font-size: 17px;
+}
+
+input[type="text"]:focus {
+  border: 2px solid rgb(83, 133, 94);
+}
