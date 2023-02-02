@@ -3,8 +3,13 @@ body {
   justify-content: center;
   height: 100vh;
   width: 100%;
+  background: url("components/4.jpg");
+  background-size: contain;
 }
 
 #root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 100%;
 }

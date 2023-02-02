@@ -3,3 +3,14 @@
   margin: 0;
   padding: 0;
 }
+
+table {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+tr {
+  display: flex;
+  justify-content: space-between;
+}
